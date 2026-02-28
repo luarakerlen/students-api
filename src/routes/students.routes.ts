@@ -5,7 +5,7 @@ import {
 	createStudent,
 	updateStudent,
 	deleteStudent,
-} from '../controllers/students/index.js';
+} from '../controllers/students/index';
 
 const studentsRoutes = Router();
 

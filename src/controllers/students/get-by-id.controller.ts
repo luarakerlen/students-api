@@ -1,13 +1,14 @@
-import { readDb } from '../../database/db.js';
-import httpResponse from '../../utils/http-response.js';
+import type { Request, Response } from 'express';
+import { readDb } from '../../database/db';
+import httpResponse from '../../utils/http-response';
 
 // Controller: receber a solicitação e respondê-la de acordo.
-export default async function getStudentById(req, res) {
+export default async function getStudentById(req: Request, res: Response) {
 	try {
 		const { students } = await readDb();
 		const { id } = req.params;
 
-		const studentFound = students.find((student) => student.id == id);
+		const studentFound = students.find((student) => student.id === Number(id));
 
 		if (!studentFound) return httpResponse(res, 404);
 

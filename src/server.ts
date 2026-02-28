@@ -1,5 +1,5 @@
 import express from 'express';
-import studentsRoutes from './routes/students.routes.js';
+import studentsRoutes from './routes/students.routes';
 import cors from 'cors';
 
 const app = express();

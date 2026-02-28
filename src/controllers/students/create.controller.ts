@@ -1,11 +1,13 @@
-import { readDb, writeDb } from '../../database/db.js';
-import httpResponse from '../../utils/http-response.js';
+import type { Request, Response } from 'express';
+import { readDb, writeDb } from '../../database/db';
+import httpResponse from '../../utils/http-response';
+import type { PartialStudent } from '../../types/partial-student';
 
-export default async function createStudent(req, res) {
+export default async function createStudent(req: Request, res: Response) {
 	try {
 		const { students } = await readDb();
 		// 1 - input
-		const dadosBody = req.body;
+		const dadosBody = req.body as PartialStudent;
 
 		// 2 - processamento
 		if (
@@ -50,10 +52,10 @@ export default async function createStudent(req, res) {
 		};
 
 		const newStudentsList = [...students, newStudent];
-		await writeDb(newStudentsList);
+		await writeDb({ students: newStudentsList });
 
 		// 3 - output - Para toda request deve existir uma response
-		return httpResponse(res, 401, newStudent);
+		return httpResponse(res, 201, newStudent);
 	} catch (error) {
 		console.error(error);
 		return httpResponse(res, 500);
