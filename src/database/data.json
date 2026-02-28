@@ -1,0 +1,124 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "email": "alice@example.com",
+      "birthDate": "10/05/1995"
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "email": "bob@example.com",
+      "birthDate": "15/08/1996"
+    },
+    {
+      "id": 3,
+      "name": "Charlie",
+      "email": "charlie@example.com",
+      "birthDate": "20/12/1997"
+    },
+    {
+      "id": 4,
+      "name": "David",
+      "email": "david@example.com",
+      "birthDate": "05/03/1998"
+    },
+    {
+      "id": 5,
+      "name": "Eve",
+      "email": "eve@example.com",
+      "birthDate": "12/07/1999"
+    },
+    {
+      "id": 6,
+      "name": "Frank",
+      "email": "frank@example.com",
+      "birthDate": "22/11/2000"
+    },
+    {
+      "id": 7,
+      "name": "Grace",
+      "email": "grace@example.com",
+      "birthDate": "30/09/2001"
+    },
+    {
+      "id": 8,
+      "name": "Heidi",
+      "email": "heidi@example.com",
+      "birthDate": "14/02/2002"
+    },
+    {
+      "id": 9,
+      "name": "Ivan",
+      "email": "ivan@example.com",
+      "birthDate": "25/06/2003"
+    },
+    {
+      "id": 10,
+      "name": "Judy",
+      "email": "judy@example.com",
+      "birthDate": "10/10/2004"
+    },
+    {
+      "id": 11,
+      "name": "Karl",
+      "email": "karl@example.com",
+      "birthDate": "05/05/2005"
+    },
+    {
+      "id": 12,
+      "name": "Leo",
+      "email": "leo@example.com",
+      "birthDate": "20/08/2006"
+    },
+    {
+      "id": 13,
+      "name": "Mallory",
+      "email": "mallory@example.com",
+      "birthDate": "15/12/2007"
+    },
+    {
+      "id": 14,
+      "name": "Nina",
+      "email": "nina@example.com",
+      "birthDate": "10/01/2008"
+    },
+    {
+      "id": 15,
+      "name": "Oscar",
+      "email": "oscar@example.com",
+      "birthDate": "25/04/2009"
+    },
+    {
+      "id": 16,
+      "name": "Peggy",
+      "email": "peggy@example.com",
+      "birthDate": "15/09/2010"
+    },
+    {
+      "id": 17,
+      "name": "Quentin",
+      "email": "quentin@example.com",
+      "birthDate": "20/11/2011"
+    },
+    {
+      "id": 18,
+      "name": "Ruth",
+      "email": "ruth@example.com",
+      "birthDate": "05/02/2012"
+    },
+    {
+      "id": 19,
+      "name": "Sam",
+      "email": "sam@example.com",
+      "birthDate": "10/06/2013"
+    },
+    {
+      "id": 20,
+      "name": "Trudy",
+      "email": "trudy@example.com",
+      "birthDate": "15/09/2014"
+    }
+  ]
+}
